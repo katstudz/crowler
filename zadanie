@@ -1,0 +1,17 @@
+3000 podstron; zagraniczna uczelnia, zapisuje pliki dokumentow na dysku;
+analizuje graf połączeń
+
+2. Wymagania:
+a/ wielowątkowe wyciąganie dokumentów i analiza działania (5p)
+b/ przestrzeganie ograniczenia Robots Exclusion Protocol (5p)
+c/ analiza grafu połączeń między dokumentami:
+    >liczba wierz.
+    >rozkład stopni (in, out)
+    >najkrótsze ścieżki (wszystkie pary)
+    >średnia odległość
+    >średnica grafu
+    >podział na klastry (współczynniki klastryzacji)
+    >odporność na ataki i awarie (zmiany grafu przy usuwaniu wierz. losowych oraz maks. stop.) (10p)
+d/ wyznacz rangi stron z zastosowaniem zaiplementowanego przez siebie iteracyjnego algorytmu PageRank
+    (z tłumieniem  bez tłuminiea)
+    zbadaj zbieżność metody dla różnych wartości wsp. tłumienia (10p)
