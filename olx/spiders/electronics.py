@@ -12,9 +12,9 @@ class DatabloggerSpider(CrawlSpider):
     name = "bucharest"
     item_num = 0
 
-    allowed_domains =  ["data-blogger.com"]
+    allowed_domains = ["ubbcluj.ro/"]
 
-    start_urls = ["https://www.data-blogger.com/"]
+    start_urls = ["http://www.ubbcluj.ro/ro/"]
 
     rules = [
         Rule(
@@ -30,7 +30,7 @@ class DatabloggerSpider(CrawlSpider):
     def start_requests(self):
         for url in self.start_urls:
 
-            yield scrapy.Request(url, callback=self.parse, dont_filter=True)
+            yield scrapy.Request(url, callback=self.parse)
 
     def parse_items(self, response):
         items = []
