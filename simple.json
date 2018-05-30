@@ -1,0 +1,5 @@
+[
+{"url_from": "raz", "url_to": "dwa"},
+{"url_from": "raz", "url_to": "trzy"},
+{"url_from": "dwa", "url_to": "raz"}
+]
