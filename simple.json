@@ -1,5 +1,7 @@
 [
 {"url_from": "raz", "url_to": "dwa"},
 {"url_from": "raz", "url_to": "trzy"},
-{"url_from": "dwa", "url_to": "raz"}
+{"url_from": "dwa", "url_to": "raz"},
+  {"url_from": "trzy", "url_to": "cztery"},
+  {"url_from": "cztery", "url_to": "piac"}
 ]

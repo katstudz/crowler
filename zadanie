@@ -13,5 +13,5 @@ c/ analiza grafu połączeń między dokumentami:
     >podział na klastry (współczynniki klastryzacji)
     >odporność na ataki i awarie (zmiany grafu przy usuwaniu wierz. losowych oraz maks. stop.) (10p)
 d/ wyznacz rangi stron z zastosowaniem zaiplementowanego przez siebie iteracyjnego algorytmu PageRank
-    (z tłumieniem  bez tłuminiea)
+    (z tłumieniem i bez tłuminiea)
     zbadaj zbieżność metody dla różnych wartości wsp. tłumienia (10p)
